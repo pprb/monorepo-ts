@@ -21,4 +21,5 @@
     { "path": "./packages/pack1"  },
     { "path": "./packages/pack2"  },
   ],
+
 }
