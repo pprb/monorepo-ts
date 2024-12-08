@@ -8,7 +8,7 @@
     "compile:watch": "tsc -b -w -i",
     "start:1": "node bin/core1/src/index.js",
     "start:2": "node bin/core2/src/index.js",
-    "start:ts": "node -r ts-node/register/transpile-only src/index.ts"
+    "start:ts": "node -r ts-node/register/transpile-only packages/core1/src/index.ts"
   },
   "dependencies": {
     "uuid": "^11.0.3"

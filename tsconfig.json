@@ -15,10 +15,7 @@
   },
   "files": [
     "packages/core1/src/index.ts",
-    "packages/core2/src/index.ts",
-    "./packages/pack1/src/index.ts",
-    "./packages/pack2/src/index.ts",
-    "./packages/pack3/src/index.ts"
+    "packages/core2/src/index.ts"
   ],
   "references": [
     { "path": "./packages/pack3"  },
