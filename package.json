@@ -2,15 +2,19 @@
   "name": "monorepo-ts",
   "private": true,
   "scripts": {
-    "compile": "tsc -b -w -i",
+    "compile": "tsc -b -i",
+    "compile:watch": "tsc -b -w -i",
     "eslint": "eslint src/**/**.{ts,tsx}",
-    "eslint:fix": "eslint src/**/**.{ts,tsx} --fix"
+    "eslint:fix": "eslint src/**/**.{ts,tsx} --fix",
+    "start": "node bin/index.js",
+    "start:ts": "node -r ts-node/register/transpile-only src/index.ts"
   },
   "dependencies": {
-    "typescript": "^5.7.2"
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   },
   "workspaces": [
     "packages/*"

@@ -5,5 +5,8 @@
   "scripts": {
     "compile": "tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "uuid": "^11.0.3"
   }
 }
