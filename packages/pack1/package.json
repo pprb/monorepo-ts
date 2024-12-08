@@ -1,0 +1,9 @@
+{
+  "name": "@monorepo-ts/pack1",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

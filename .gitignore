@@ -1,0 +1,6 @@
+# folder
+bin
+node_modules
+
+# typescript files
+tsconfig.tsbuildinfo
