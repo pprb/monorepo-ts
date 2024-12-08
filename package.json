@@ -6,9 +6,7 @@
     "compile:all": "tsc -b -i",
     "compile:clean": "tsc -b --clean",
     "compile:watch": "tsc -b -w -i",
-    "eslint": "eslint src/**/**.{ts,tsx}",
-    "eslint:fix": "eslint src/**/**.{ts,tsx} --fix",
-    "start": "node bin/index.js",
+    "start": "node bin/core/src/index.js",
     "start:ts": "node -r ts-node/register/transpile-only src/index.ts"
   },
   "dependencies": {

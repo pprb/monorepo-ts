@@ -1,4 +1,4 @@
-import pack2 from "../packages/pack2/src"
+import pack2 from "@monorepo-ts/pack2"
 
 console.log("This is core")
 
