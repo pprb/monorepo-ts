@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
-    "module": "commonjs",
+    "module": "ES2022",
     "moduleResolution": "node",
     "outDir": "./bin",
     "rootDir": "./src",
